@@ -1,0 +1,16 @@
+#p{
+    border:1px solid rebeccapurple;
+    color:rebeccapurple;
+    width: 400px;
+    padding: 1rem;
+    text-align: center;
+    font-size: 24px;
+}
+#btn{
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 24px;
+}
+.empty{
+    height: 200px;
+}
