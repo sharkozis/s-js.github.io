@@ -19,8 +19,8 @@ function guessFunc(){
     let user3 = 100;
     let userTotal = user1+user2+user3;
     let division = parseInt(prompt('এখন আমাদের দেয়া সংখ্যার সাথে আপনার সংখ্যাগুলির যোগের পরে মোট সংখ্যাকে দুই দিয়ে ভাগ করুন এবং এখানে ইনপুটে দিন।'));
-    let minus = parseInt(prompt("এইবার গেমের শুরুতে সংখ্যাটি দুইবার নেয়ার অপরাধে একবার বিয়োগ করে ফেলুন। আরে করেন ভাই নাইলে কোড মিলবো না।"));
+    let minus = parseInt(prompt("এইবার গেমের শুরুতে সংখ্যাটি দুইবার নেয়ার অপরাধে একবার বিয়োগ করে ফেলুন আপনার হাতে থাকা অবশিষ্ট নাম্বারের সাথে। আরে করেন ভাই নাইলে কোড মিলবো না।"));
     let remainResult = division-minus;
-    document.getElementById('p').innerHTML = remainResult;
+    document.getElementById('p').innerHTML ='result is '+ remainResult;
 }
 
